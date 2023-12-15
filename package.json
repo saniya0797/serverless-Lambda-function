@@ -1,0 +1,18 @@
+{
+  "name": "Serverless",
+  "version": "1.0.0",
+  "description": "Repo to store AWS lambda functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.458.0",
+    "@aws-sdk/lib-dynamodb": "^3.458.0",
+    "@google-cloud/storage": "^7.6.0",
+    "@smithy/types": "^2.6.0",
+    "mailgun-js": "^0.22.0"
+  }
+}
